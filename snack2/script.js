@@ -60,7 +60,7 @@ for(var i = 0; i < arr.length; i++){
 
     if (arr[i].lunghezza >= 15) {
         arrMaggiore.push(arr[i].lunghezza)        
-    } else if (arr[i].lunghezza < 15) {
+    } else {
         arrMinore.push(arr[i].lunghezza);
     }
     
