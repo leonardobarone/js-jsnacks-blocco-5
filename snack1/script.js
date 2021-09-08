@@ -62,5 +62,5 @@ for(i = 0; i < arr.length; i++) {
 
 }
 
-console.log(peso);
+console.log((peso / 1000).toFixed(2) + " Kg");
 
