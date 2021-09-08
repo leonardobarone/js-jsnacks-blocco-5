@@ -12,12 +12,12 @@ function porzioneArray(arr, a, b) {
         } 
         
     }
-    console.log(arrNew);
-
+    return arrNew;
+    
 }
 // La funzione ritornerà un nuovo array con i valori che hanno la posizione
 // compresa tra “a” e “b”
 
 let arr = ["a", "b", "c", "d", "e", "f"];
 
-porzioneArray(arr, 1, 3);
+console.log(porzioneArray(arr, 1, 3));
