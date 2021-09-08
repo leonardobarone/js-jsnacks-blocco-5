@@ -66,9 +66,5 @@ for(var i = 0; i < arr.length; i++){
     
 }
 // Infine stampa separatamente quanto pesano i due gruppi di zucchine.
-
-console.log(arrMinore);
-console.log(arrMaggiore);
-
-
-
+console.log("Le Zucchine più CORTE di 15cm sono: " + arrMinore.join(", "));
+console.log("Le Zucchine più LUNGHE di 15cm sono: " + arrMaggiore.join(", "));
