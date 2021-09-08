@@ -4,17 +4,17 @@
 
 function giraStringa(string){
 
-    let risultato = [];
+    let nuovaParola = "";
 
     for(var i = string.length - 1; i >= 0; i--){
        
-        risultato.push(string[i])
+        nuovaParola += string[i];
         
     }
 
-    return risultato.join("");
+    return nuovaParola;
     
     
 }
 
-console.log(giraStringa("ciaonee"))
+console.log(giraStringa("Leonardo"))
