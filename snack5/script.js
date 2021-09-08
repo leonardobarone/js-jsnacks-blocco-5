@@ -5,14 +5,14 @@ function porzioneArray(arr, a, b) {
     
     var arrNew = [];
     
-    for(let i = 0; i < arr.length; i++){
+    for(var i = 0; i < arr.length; i++){
         
         if (i >= a && i <= b) {
-            arrNew.push(arr[i]); 
-
+            arrNew.push(arr[i]);
         } 
-      
+        
     }
+    console.log(arrNew);
 
 }
 // La funzione ritornerà un nuovo array con i valori che hanno la posizione
