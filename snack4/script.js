@@ -2,13 +2,31 @@
 //     elementi) prendendo alternativamente gli elementi da uno e dall’altro
 //     es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
 
-function fusione(arr1, arr2){
+function fusione(primoArray, secondoArray){
 
     var nuovoArray = [];
 
-    for(var i = 0; i < arr1.length; i++){
-        nuovoArray.push(arr1[i])
-        nuovoArray.push(arr2[i])
+    
+    if (primoArray.length > secondoArray.length) {
+        var arrayPiuLungo = primoArray.length; 
+    } else if (primoArray.length < secondoArray.length) {
+        var arrayPiuLungo = secondoArray.length;
+    } else {
+        var arrayPiuLungo = primoArray.length;
+    }
+    
+    for(var i = 0; i < arrayPiuLungo ; i++) {
+
+        
+        
+        
+        if (primoArray[i] !== undefined) {
+            
+            nuovoArray.push(primoArray[i]);
+            nuovoArray.push(secondoArray[i]);
+        } else {
+            nuovoArray.push(secondoArray[i]);
+        }
 
     }
 
@@ -16,7 +34,12 @@ function fusione(arr1, arr2){
 }
 
 
-var arr1 = ["a", "b", "c"];
-var arr2 = [1, 2, 3];
+// FARE CONTROLLO SE LE STRINGHE NON SONO UGUALE
 
-console.log(fusione(arr1, arr2))
+
+var arr2 = ["a", "b", "c"];
+var arr1 = [1, 2, 3, 4, 5, 6];
+
+console.log(arr1);
+console.log(arr2);
+console.log(fusione(arr1, arr2));
