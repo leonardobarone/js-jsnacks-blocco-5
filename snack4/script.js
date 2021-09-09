@@ -34,7 +34,7 @@ function fusione(primoArray, secondoArray){
 }
 
 
-// FARE CONTROLLO SE LE STRINGHE NON SONO UGUALE
+
 
 
 var arr2 = ["a", "b", "c"];

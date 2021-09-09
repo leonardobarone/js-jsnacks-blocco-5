@@ -21,3 +21,4 @@ function porzioneArray(arr, a, b) {
 let arr = ["a", "b", "c", "d", "e", "f"];
 
 console.log(porzioneArray(arr, 1, 3));
+
